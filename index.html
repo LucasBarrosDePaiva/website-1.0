@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, minimum-scale=1, initial-scale=1.0"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="assets/js/script.js"></script>
+        <title>Website 1.0 - Virtual Store</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="#"
+                        ><img
+                            src="assets/img/popcorn-logo.png"
+                            alt=""
+                            class="src"
+                    /></a>
+                </div>
+
+                <div class="menu">
+                    <div class="menu-opener">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li><a href="#aboutus">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#ourprojects">Our Projects</a></li>
+                            <li><a href="#ourteam">Our Team</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="banner">
+                <div class="a sliders">
+                    <div class="slide">
+                        <div class="slidearea">
+                            <h1>
+                                1-Design is about <br /><span
+                                    >Communication</span
+                                >
+                            </h1>
+                            <p>Call us: +00 0 1234 5678</p>
+                            <button><a href="">Get in touch!</a></button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slidearea">
+                            <h1>
+                                2-Design is about <br /><span
+                                    >Communication</span
+                                >
+                            </h1>
+                            <p>Call us: +00 0 1234 5678</p>
+                            <button><a href="">Get in touch!</a></button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slidearea">
+                            <h1>
+                                3-Design is about <br /><span
+                                    >Communication</span
+                                >
+                            </h1>
+                            <p>Call us: +00 0 1234 5678</p>
+                            <button><a href="">Get in touch!</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sliders-pointers">
+                    <div class="pointer active" onclick="showSlides(1)"></div>
+                    <div class="pointer" onclick="showSlides(2)"></div>
+                    <div class="pointer" onclick="showSlides(3)"></div>
+                </div>
+            </div>
+
+            <section id="aboutus" class="default light">
+                <div class="section-title">About Us</div>
+                <div class="section-desc">Brief about us</div>
+                <div class="section-body">
+                    <div class="section-aboutus">
+                        <div class="section-aboutus--left">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Minus, enim. Nihil esse cumque dicta saepe
+                            atque rerum asperiores? Asperiores tempora dolor
+                            iste accusantium sequi sed adipisci quaerat ipsum
+                            laboriosam saepe.
+                            <br /><br />
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Id, quam iure aut provident nam cum assumenda
+                            quis cupiditate est temporibus deleniti voluptatibus
+                            rem qui ipsa sunt expedita ipsum inventore veniam?
+                            <br /><br />
+                            <a href="" class="button">Learn More!</a>
+                        </div>
+                        <div class="section-aboutus--right">
+                            <img src="assets/img/main-bg.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="default dark">
+                <div class="section-title">Services</div>
+                <div class="section-desc">Services that we provide</div>
+                <div class="section-body">
+                    <div class="section-services">
+                        <div class="section-service">
+                            <img src="assets/img/popcorn-logo.png" alt="" />
+                            <h4>High Quality Design</h4>
+                            <p>Description about this section</p>
+                        </div>
+                        <div class="section-service">
+                            <img src="assets/img/popcorn-logo.png" alt="" />
+                            <h4>High Quality Design</h4>
+                            <p>Description about this section</p>
+                        </div>
+                        <div class="section-service">
+                            <img src="assets/img/popcorn-logo.png" alt="" />
+                            <h4>High Quality Design</h4>
+                            <p>Description about this section</p>
+                        </div>
+                        <div class="section-service">
+                            <img src="assets/img/popcorn-logo.png" alt="" />
+                            <h4>High Quality Design</h4>
+                            <p>Description about this section</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ourprojects" class="default light">
+                <div class="section-title">Our projects</div>
+                <div class="section-desc">What we created</div>
+                <div class="section-body">
+                    <div class="section-projects">
+                        <div class="section-projects--filters">
+                            <ul>
+                                <li>All</li>
+                                <li class="active">Photos</li>
+                                <li>Branding</li>
+                                <li>Adverts</li>
+                                <li>Development</li>
+                                <li>Misc</li>
+                            </ul>
+                        </div>
+                        <div class="section-projects--photos">
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                        <h5>About</h5>
+                                        <p>Information description</p>
+                                    </div>
+                                    <img src="assets/img/main-bg.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="button">More Projects!</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ourteam" class="default dark bg-team">
+                <div class="section-teamarea">
+                    <div class="section-title">Our Team</div>
+                    <div class="section-desc">Our co-workers</div>
+                    <div class="section-body">
+                        <div class="section-team">
+                            <div class="b sliders">
+                                <div class="slide">
+                                    <div class="slidearea">
+                                        <img
+                                            class="section-team--avatar"
+                                            src="https://cdnstorage.sendbig.com/unreal/female.webp"
+                                            alt=""
+                                        />
+                                        <div class="section-team--name">
+                                            Jane Doe
+                                        </div>
+                                        <div class="section-team--role">
+                                            Master Mind
+                                        </div>
+                                        <div class="section-team--socials">
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/rd-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/tt-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/tg-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/fb-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/wp-logo.png"
+                                                    alt=""
+                                            /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slidearea">
+                                        <img
+                                            class="section-team--avatar"
+                                            src="assets/img/homem1.jpg"
+                                            alt=""
+                                        />
+                                        <div class="section-team--name">
+                                            John John
+                                        </div>
+                                        <div class="section-team--role">
+                                            Designer
+                                        </div>
+                                        <div class="section-team--socials">
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/rd-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/tt-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/tg-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/fb-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/wp-logo.png"
+                                                    alt=""
+                                            /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slidearea">
+                                        <img
+                                            class="section-team--avatar"
+                                            src="assets/img/mulher1.jpg"
+                                            alt=""
+                                        />
+                                        <div class="section-team--name">
+                                            Anna Jhons
+                                        </div>
+                                        <div class="section-team--role">
+                                            Technical Lead
+                                        </div>
+                                        <div class="section-team--socials">
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/rd-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/tt-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/tg-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/fb-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/wp-logo.png"
+                                                    alt=""
+                                            /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slidearea">
+                                        <img
+                                            class="section-team--avatar"
+                                            src="https://cdnstorage.sendbig.com/unreal/female.webp"
+                                            alt=""
+                                        />
+                                        <div class="section-team--name">
+                                            Jane Doe
+                                        </div>
+                                        <div class="section-team--role">
+                                            Master Mind
+                                        </div>
+                                        <div class="section-team--socials">
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/rd-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/tt-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/tg-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/fb-logo.png"
+                                                    alt=""
+                                            /></a>
+                                            <a href=""
+                                                ><img
+                                                    src="assets/img/wp-logo.png"
+                                                    alt=""
+                                            /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sliders-pointers">
+                        <div
+                            class="pointer active"
+                            onclick="showSlides(4)"
+                        ></div>
+                        <div class="pointer" onclick="showSlides(5)"></div>
+                        <div class="pointer" onclick="showSlides(6)"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="clients" class="default light">
+                <div class="section-title">Happy Clients</div>
+                <div class="section-desc">Client Reviews</div>
+                <div class="section-body">
+                    <div class="section-client">
+                        <div class="c sliders">
+                            <div class="slide">
+                                <div class="slidearea">
+                                    <img
+                                        class="section-client--avatar"
+                                        src="https://cdnstorage.sendbig.com/unreal/female.webp"
+                                        alt=""
+                                    />
+                                    <div class="section-client--name">
+                                        Anna Case 1
+                                    </div>
+                                    <div class="section-client--role">
+                                        Head of PR Department
+                                    </div>
+                                    <div class="section-client--review">
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Quas
+                                            tenetur, ullam, quod autem
+                                            doloremque ab illum vel
+                                            reprehenderit est explicabo
+                                            accusamus optio rerum veritatis
+                                            consequuntur voluptatem eaque
+                                            dolores ipsa odit.
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="slidearea">
+                                    <img
+                                        class="section-client--avatar"
+                                        src="https://cdnstorage.sendbig.com/unreal/female.webp"
+                                        alt=""
+                                    />
+                                    <div class="section-client--name">
+                                        Anna Case 2
+                                    </div>
+                                    <div class="section-client--role">
+                                        Head of PR Department
+                                    </div>
+                                    <div class="section-client--review">
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Quas
+                                            tenetur, ullam, quod autem
+                                            doloremque ab illum vel
+                                            reprehenderit est explicabo
+                                            accusamus optio rerum veritatis
+                                            consequuntur voluptatem eaque
+                                            dolores ipsa odit.
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="slidearea">
+                                    <img
+                                        class="section-client--avatar"
+                                        src="https://cdnstorage.sendbig.com/unreal/female.webp"
+                                        alt=""
+                                    />
+                                    <div class="section-client--name">
+                                        Anna Case 3
+                                    </div>
+                                    <div class="section-client--role">
+                                        Head of PR Department
+                                    </div>
+                                    <div class="section-client--review">
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Quas
+                                            tenetur, ullam, quod autem
+                                            doloremque ab illum vel
+                                            reprehenderit est explicabo
+                                            accusamus optio rerum veritatis
+                                            consequuntur voluptatem eaque
+                                            dolores ipsa odit.
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliders-pointers">
+                            <div
+                                class="pointer active"
+                                onclick="showSlides(7)"
+                            ></div>
+                            <div class="pointer" onclick="showSlides(8)"></div>
+                            <div class="pointer" onclick="showSlides(9)"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section-map">
+                <div class="section-maparea">
+                    <div class="section-mapinfo">
+                        <div class="section-mapinfo--item">
+                            <div class="section-mapinfo--item-img">
+                                <img src="assets/img/wp-logo.png" alt="" />
+                            </div>
+                            Informações gerais como telefone e endereço.
+                        </div>
+                        <div class="section-mapinfo--item">
+                            <div class="section-mapinfo--item-img">
+                                <img src="assets/img/wp-logo.png" alt="" />
+                            </div>
+                            Informações gerais como telefone e endereço.
+                        </div>
+                        <div class="section-mapinfo--item">
+                            <div class="section-mapinfo--item-img">
+                                <img src="assets/img/wp-logo.png" alt="" />
+                            </div>
+                            Informações gerais como telefone e endereço.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="default dark">
+                <div class="footer-text">
+                    <h4>Created by Lucas Paiva</h4>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
